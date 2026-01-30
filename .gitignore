@@ -1,0 +1,42 @@
+# Large data files (>100MB GitHub limit)
+output/ULTIMATE_COMBINED.json
+output/ULTIMATE_COMBINED.jsonl
+
+# Old/intermediate files
+output/*_checkpoint_*.jsonl
+output/checkpoint_*.jsonl
+output/NEW_*.json
+output/NEW_*.csv
+output/NEW_*.jsonl
+output/FINAL_PRODUCTION_READY.json
+
+# Logs
+logs/*.log
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright browsers
+.pytest_cache/
+playwright-state/
