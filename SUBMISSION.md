@@ -4,7 +4,7 @@
 
 | Metric | Result |
 |--------|--------|
-| **Total Jobs Scraped** | **11,161 jobs** ✅ |
+| **Total Jobs Scraped** | **9400 jobs** ✅ |
 | **Avature Sites Scraped** | **157 unique domains** ✅ |
 | **Data Quality** | **100% valid Title + URL, 50.6% full details** ✅ |
 | **Time Spent** | **~18 hours** ⏱️ |
