@@ -4,7 +4,6 @@
 
 [![Jobs](https://img.shields.io/badge/Jobs-9,400-success)](https://github.com/Nuthanreddy05/avature-scraper-)
 [![Companies](https://img.shields.io/badge/Companies-66-blue)](https://github.com/Nuthanreddy05/avature-scraper-)
-[![Quality](https://img.shields.io/badge/Quality-A--grade-green)](https://github.com/Nuthanreddy05/avature-scraper-)
 
 ---
 
