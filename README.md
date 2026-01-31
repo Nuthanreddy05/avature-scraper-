@@ -58,14 +58,22 @@ While I am aware that rotating residential proxies (e.g., BrightData) is the sta
 * **Proxy Rotation:** Implement paid proxy rotation to remove the 1 request/second limit, allowing for 100+ concurrent workers.
 * **LLM Parsing:** Integrate GPT-4 API to parse unstructured HTML from the 10% of sites that break standard CSS selectors.
 
----
 
-## 💻 How to Run
 
-1. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   playwright install chromium
+## 📂 Output & Data Structure
+
+The repository includes the following extracted datasets:
+
+* **`output/ULTIMATE_COMBINED.zip`** (Primary)
+    * The complete, compressed dataset containing all 9,400 jobs with full metadata.
+    * **Format:** JSON (inside ZIP)
+* **`output/ULTIMATE_COMBINED.csv`**
+    * A flattened version of the dataset for easy viewing in Excel/Sheets.
+    * **Columns:** `Title`, `Company`, `Location`, `Apply URL`, `Description`, `Date Posted`.
+* **`output/APPLICATION_URLS.txt`**
+    * A clean list of all 9,400 unique application links. Useful for validating coverage or running a quick link-check.
+
+
 ## 📚 Technical Deep Dive & Complete Workflow
 
 While this README provides a high-level overview, the complete engineering journey is documented in **[SUBMISSION.md](./SUBMISSION.md)**.
@@ -77,3 +85,12 @@ Please refer to that document for:
 * **Failure Analysis:** How I handled edge cases, anti-bot protections, and international locales.
 
 👉 **[Click here to read the full Technical Submission](./SUBMISSION.md)**
+
+---
+
+## 💻 How to Run
+
+1. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   playwright install chromium
