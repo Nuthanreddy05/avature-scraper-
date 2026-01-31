@@ -66,3 +66,14 @@ While I am aware that rotating residential proxies (e.g., BrightData) is the sta
    ```bash
    pip install -r requirements.txt
    playwright install chromium
+## 📚 Technical Deep Dive & Complete Workflow
+
+While this README provides a high-level overview, the complete engineering journey is documented in **[SUBMISSION.md](./SUBMISSION.md)**.
+
+Please refer to that document for:
+* **The Complete Workflow:** A step-by-step breakdown of how the system processes data from discovery to final JSON.
+* **Reverse Engineering Details:** Deep dive into the 14 specific techniques used (e.g., Dimension fingerprinting, API rotation).
+* **Detailed Architecture:** Comprehensive breakdown of the Hybrid Extraction Engine.
+* **Failure Analysis:** How I handled edge cases, anti-bot protections, and international locales.
+
+👉 **[Click here to read the full Technical Submission](./SUBMISSION.md)**
